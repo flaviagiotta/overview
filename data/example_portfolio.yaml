@@ -1,0 +1,11 @@
+spendable:
+  initial_balance: 3200
+  reference_month: "2026-11"
+  warning_threshold: 100
+  stop_threshold: 0
+  monthly_deposit: 50
+
+movements:
+  - {month: "2026-12", kind: expense, amount: 400, description: "Gifts"}
+  - {month: "2027-01", kind: expense, amount: 900, description: "University fees"}
+  - {month: "2027-03", kind: income,  amount: 200, description: "Tutoring"}
